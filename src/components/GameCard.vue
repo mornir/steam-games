@@ -22,14 +22,16 @@
       class="
         w-44
         h-24
-        bg-red-500
+        bg-white
+        opacity-50
         absolute
         top-0
-        right-0
         transform
         rotate-45
-        origin-bottom-right
-        group-hover:bg-green-500
+        origin-top-right
+        scale-y-105
+        left-1/2
+        group-hover:duration-500 group-hover:scale-y-150
       "
     ></div>
     <p
