@@ -294,16 +294,6 @@
     "playtime_linux_forever": 0
   },
   {
-    "appid": 365720,
-    "name": "Skyrim Script Extender (SKSE)",
-    "playtime_forever": 0,
-    "img_icon_url": "48eaa1815ac4beddc4d7c9fec6c2517f6f0b718e",
-    "img_logo_url": "2e321af767f304de67d59f9c4329a8b8d553739b",
-    "playtime_windows_forever": 0,
-    "playtime_mac_forever": 0,
-    "playtime_linux_forever": 0
-  },
-  {
     "appid": 384190,
     "name": "ABZÛ",
     "playtime_forever": 224,

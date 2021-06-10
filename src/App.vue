@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-900">
-    <div class="flex flex-wrap gap-8">
+  <div class="bg-gray-900 py-12 px-8">
+    <div class="flex flex-wrap gap-8 justify-between">
       <GameCard v-for="game in games" :key="game.appid" :game="game" />
     </div>
   </div>
