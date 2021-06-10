@@ -525,16 +525,6 @@
     "playtime_linux_forever": 0
   },
   {
-    "appid": 737010,
-    "name": "Warhammer: Vermintide 2 Closed Test",
-    "playtime_forever": 0,
-    "img_icon_url": "a02bbe266096460058982ecddf57ecb7df92d842",
-    "img_logo_url": "",
-    "playtime_windows_forever": 0,
-    "playtime_mac_forever": 0,
-    "playtime_linux_forever": 0
-  },
-  {
     "appid": 845070,
     "name": "The Awesome Adventures of Captain Spirit",
     "playtime_forever": 122,
