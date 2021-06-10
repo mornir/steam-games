@@ -1,5 +1,13 @@
 <template>
-  <div class="cursor-pointer">
+  <div
+    class="
+      cursor-pointer
+      hover:transform
+      hover:scale-105
+      duration-200
+      ease-in-out
+    "
+  >
     <img
       :src="`https://steamcdn-a.akamaihd.net/steam/apps/${game.appid}/library_600x900.jpg`"
       width="150"
