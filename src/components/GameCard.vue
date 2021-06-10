@@ -6,6 +6,9 @@
       hover:scale-105
       duration-200
       ease-in-out
+      relative
+      overflow-hidden
+      group
     "
   >
     <img
@@ -15,6 +18,20 @@
       loading="async"
       :alt="game.name"
     />
+    <div
+      class="
+        w-44
+        h-24
+        bg-red-500
+        absolute
+        top-0
+        right-0
+        transform
+        rotate-45
+        origin-bottom-right
+        group-hover:bg-green-500
+      "
+    ></div>
     <p
       class="
         text-white
