@@ -1,15 +1,6 @@
 <template>
   <div
-    class="
-      cursor-pointer
-      hover:transform
-      hover:scale-105
-      duration-200
-      ease-in-out
-      relative
-      overflow-hidden
-      group
-    "
+    class="relative overflow-hidden duration-200 ease-in-out cursor-pointer hover:transform hover:scale-105 group"
   >
     <img
       :src="`https://steamcdn-a.akamaihd.net/steam/apps/${game.appid}/library_600x900.jpg`"
@@ -19,31 +10,10 @@
       :alt="game.name"
     />
     <div
-      class="
-        w-44
-        h-24
-        bg-white
-        opacity-50
-        absolute
-        top-0
-        transform
-        rotate-45
-        origin-top-right
-        scale-y-105
-        left-1/2
-        group-hover:duration-500 group-hover:scale-y-150
-      "
+      class="w-52 h-14 bg-white opacity-50 absolute transform bottom-[59%] left-[8%] rotate-[35deg] duration-500 origin-top-right group-hover:scale-y-200"
     ></div>
     <p
-      class="
-        text-white
-        bg-gray-700
-        text-center
-        mx-6
-        relative
-        bottom-4
-        rounded-md
-      "
+      class="relative mx-6 text-center text-white bg-gray-700 rounded-md bottom-4"
     >
       14.3 hours
     </p>
