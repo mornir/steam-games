@@ -7,7 +7,7 @@
       width="150"
       height="225"
       loading="async"
-      class="group-hover:filter group-hover:brightness-105"
+      class="w-full group-hover:filter group-hover:brightness-105"
       :alt="game.name"
     />
     <div
