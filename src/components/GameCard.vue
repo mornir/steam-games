@@ -7,10 +7,11 @@
       width="150"
       height="225"
       loading="async"
+      class="group-hover:filter group-hover:brightness-105"
       :alt="game.name"
     />
     <div
-      class="w-52 h-14 opacity-25 absolute transform bottom-[59%] left-[8%] rotate-[35deg] duration-500 origin-top-right group-hover:scale-y-200 bg-gradient-to-b from-transparent to-white"
+      class="w-52 h-14 opacity-20 absolute transform bottom-[59%] left-[8%] rotate-[35deg] duration-500 origin-top-right group-hover:scale-y-200 bg-gradient-to-b from-transparent to-white filter blur-sm"
     ></div>
     <p
       class="relative mx-6 text-center text-white bg-gray-700 rounded-md bottom-4"

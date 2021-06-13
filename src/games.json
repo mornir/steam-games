@@ -437,17 +437,6 @@
     "playtime_linux_forever": 0
   },
   {
-    "appid": 770720,
-    "name": "Hunt: Showdown (Test Server)",
-    "playtime_forever": 0,
-    "img_icon_url": "5b6e6df3d86da34a061ef77113483a54317b01e8",
-    "img_logo_url": "449b63e96d9563899399d7fc2461e77eeec71870",
-    "has_community_visible_stats": true,
-    "playtime_windows_forever": 0,
-    "playtime_mac_forever": 0,
-    "playtime_linux_forever": 0
-  },
-  {
     "appid": 356190,
     "name": "Middle-earth™: Shadow of War™",
     "playtime_forever": 48,
