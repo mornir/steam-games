@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-900 py-12 px-8">
-    <div class="flex flex-wrap gap-x-8 gap-y-2 justify-between">
+  <div class="px-8 py-12 bg-gray-900">
+    <div class="c-grid">
       <GameCard v-for="game in games" :key="game.appid" :game="game" />
     </div>
   </div>
@@ -21,3 +21,13 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.c-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr));
+  justify-items: center;
+  column-gap: 1.5rem;
+  row-gap: 0.5rem;
+}
+</style>
