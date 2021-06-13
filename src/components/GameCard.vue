@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative overflow-hidden duration-200 ease-in-out cursor-pointer hover:transform hover:scale-105 group"
+    class="relative overflow-hidden duration-200 ease-out cursor-pointer hover:transform hover:scale-105 group"
   >
     <img
       :src="`https://steamcdn-a.akamaihd.net/steam/apps/${game.appid}/library_600x900.jpg`"
