@@ -14,9 +14,9 @@
       class="w-52 h-14 opacity-10 absolute transform bottom-[59%] left-[8%] rotate-[35deg] duration-500 origin-top-right group-hover:scale-y-200 group-hover:opacity-20 bg-gradient-to-b from-transparent to-white filter blur-sm"
     ></div>
     <p
-      class="relative mx-6 text-center text-white bg-gray-700 rounded-md bottom-4"
+      class="relative py-0.5 mx-8 text-xs font-semibold text-center text-white bg-gray-700 rounded-md bottom-4"
     >
-      14.3 hours
+      {{ getPlayTime(game.playtime_forever) }}
     </p>
   </div>
 </template>
@@ -28,6 +28,15 @@ export default {
       type: Object,
       default: () => {},
       required: true,
+    },
+  },
+  methods: {
+    getPlayTime(minutes) {
+      if (minutes >= 120) {
+        return (minutes / 60).toFixed(1) + " hours"
+      } else {
+        return minutes + " minutes"
+      }
     },
   },
 }
